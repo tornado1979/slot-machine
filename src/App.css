@@ -26,3 +26,38 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+.game-player {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column nowrap;
+  background-color: #ffffff;
+  height: 500px;
+  width: 100%;
+  margin: auto auto;
+}
+
+.row {
+  width: 100%;
+  flex: 1 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.row:nth-child(1) {
+  align-items: center;
+}
+.row:nth-child(2) {
+  align-items: center;
+}
+
+.coins {
+  background-color: lightGrey;
+  padding: 10px;
+}
+
+
+.spin {
+  border: none;
+  padding: 10px;
+}
